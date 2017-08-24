@@ -30,6 +30,16 @@ $(function(){
 		   		$('.myresult').fadeOut();
 		   }
 		});	
+	}else{
+
+		$('.myresult').hide();
+		$(window).scroll(function() {
+		   if($(window).scrollTop()  > 300) {
+		       $('.myresult').fadeIn();
+		   }else if($(window).scrollTop()  > 100){
+		   		$('.myresult').fadeOut();
+		   }
+		});	
 	}
 
 
