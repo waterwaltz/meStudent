@@ -266,6 +266,14 @@ input[type=number] {
 	.myresult.fixed{width: 100%;padding: 25px 20px;}
 }
 
+@-moz-document url-prefix() {
+  select {
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+  }
+}
+
 
 
 
