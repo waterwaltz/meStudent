@@ -77,16 +77,28 @@
 									<div class="rate_tb">
 										<table>
 											<tr>
-												<th>Shifts</th><th>Mon-Fri</th><th>Sat</th><th>Sun</th>
+												<th class="shift">Shifts</th>
+												<td class="shift">06 AM - 09 PM</td>
+												<td class="shift">09 AM - 12 PM</td>
+												<td class="shift">12 AM - 06 PM</td>
 											</tr>
 											<tr>
-												<td>06 AM - 09 PM</td><td>$18.50/hr</td><td>$27.75/hr</td><td>$37.00/hr</td>
+												<th>Mon-Fri</th>
+												<td><span>06 AM - 09 PM</span>$18.50 / hr</td>
+												<td><span>06 AM - 09 PM</span>$27.75 / hr</td>
+												<td><span>06 AM - 09 PM</span>$37.00 / hr</td>
 											</tr>
 											<tr>
-												<td>09 AM - 12 PM</td><td>$20.50/hr</td><td>$27.75/hr</td><td>$37.00/hr</td>
+												<th>Sat</th>
+												<td><span>09 AM - 12 PM</span>$20.50 / hr</td>
+												<td><span>09 AM - 12 PM</span>$27.75 / hr</td>
+												<td><span>09 AM - 12 PM</span>$37.00 / hr</td>
 											</tr>
 											<tr>
-												<td>12 AM - 06 PM</td><td>$23.13/hr</td><td>$27.75/hr</td><td>$37.00/hr</td>
+												<th>Sun</th>
+												<td><span>12 AM - 06 PM</span>$23.13 / hr</td>
+												<td><span>12 AM - 06 PM</span>$27.75 / hr</td>
+												<td><span>12 AM - 06 PM</span>$37.00 / hr</td>
 											</tr>
 										</table>
 									</div>
@@ -104,8 +116,8 @@
 												<th>Day</th><th>Start</th><th>Finish</th><th>Total</th>
 											</tr>
 											<tr>
-												<td>Mon</td>
-												<td>
+												<td class="day">Mon</td>
+												<td class="start">
   													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -113,7 +125,7 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="finish">
 													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -121,13 +133,13 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="total">
 													0.0
 												</td>
 											</tr>
 											<tr>
-												<td>Tue</td>
-												<td>
+												<td class="day">Tue</td>
+												<td class="start">
   													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -135,7 +147,7 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="finish">
 													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -143,13 +155,13 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="total">
 													0.0
 												</td>
 											</tr>
 											<tr>
-												<td>Wed</td>
-												<td>
+												<td class="day">Wed</td>
+												<td class="start">
   													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -157,7 +169,7 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="finish">
 													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -165,13 +177,13 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="total">
 													0.0
 												</td>
 											</tr>
 											<tr>
-												<td>Thu</td>
-												<td>
+												<td class="day">Thu</td>
+												<td class="start">
   													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -179,7 +191,7 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="finish">
 													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -187,13 +199,13 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="total">
 													0.0
 												</td>
 											</tr>
 											<tr>
-												<td>Fri</td>
-												<td>
+												<td class="day">Fri</td>
+												<td class="start">
   													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -201,7 +213,7 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="finish">
 													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -209,13 +221,13 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="total">
 													0.0
 												</td>
 											</tr>
 											<tr>
-												<td>Sat</td>
-												<td>
+												<td class="day">Sat</td>
+												<td class="start">
   													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -223,7 +235,7 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="finish">
 													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -231,13 +243,13 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="total">
 													0.0
 												</td>
 											</tr>
 											<tr>
-												<td>Sun</td>
-												<td>
+												<td class="day">Sun</td>
+												<td class="start">
   													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -245,7 +257,7 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="finish">
 													<input type="number" value="00" min="0" max="12">
 													<input type="number" value="00" min="0" max="60">
 													<label class="ampm-switch">
@@ -253,30 +265,27 @@
 														  <div class="toggle-button"></div>
 													</label>
 												</td>
-												<td>
+												<td class="total">
 													0.0
-												</td>
-											</tr>
-											<tr>
-												<td colspan="3">
-													<span class="warning">
-														<i class="fa fa-warning"></i> You can't exceed the maximum number of hours
-													</span>
-
-													<b class="subtotal">Subtotal</b>
-												</td>
-												<td>
-													16.0
 												</td>
 											</tr>
 										</table>
+										<div class="total_num clearfix">
+											<div class="right">
+												<b class="subtotal">Subtotal</b>
+												<span>16.0</span>
+											</div>
+											<span class="warning">
+												<i class="fa fa-warning"></i> You can't exceed the maximum number of hours
+											</span>
+										</div>
 
-										<ul class="tb_btn">
-											<li class="gray">
-												<a href="">Reset</a>
-											</li>
+										<ul class="tb_btn clearfix">
 											<li class="orange">
 												<a href="">Calculate</a>
+											</li>
+											<li class="gray">
+												<a href="">Reset</a>
 											</li>
 										</ul>
 									</div>
