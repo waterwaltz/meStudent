@@ -24,7 +24,7 @@ $(function(){
 		
 		$('.myresult').hide();
 		$(window).scroll(function() {
-		   if($(window).scrollTop()  > 300) {
+		   if($(window).scrollTop()  > 500) {
 		       $('.myresult').fadeIn();
 		   }else if($(window).scrollTop()  > 100){
 		   		$('.myresult').fadeOut();
