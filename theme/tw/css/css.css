@@ -172,11 +172,16 @@ label.ampm-switch .toggle-button:before {display: block;width: 38px;height: 18px
 	.time_tb th{display: none;}
 	.time_tb tr:nth-child(2n+1){background: #fafafa;}
 
+	.time_tb input.spinner{width: 70px;}
 	.ui-spinner{margin-right: 7px;}
 
 	.total_num .right{display: block;float: none;text-align: right;}
 	.subtotal + span{margin-right: 0;}
 	.warning{display: block;float: none;text-align: left;}
+}
+
+@media(max-width:380px){
+	.time_tb input.spinner{width: 60px;}
 }
 
 input[type=number]::-webkit-outer-spin-button,
